@@ -8,12 +8,12 @@ public class Main {
         long d = 4L;
         float e = 1.2f;
         double f = 2.1;
-        System.out.println("Значение переменной a с типом int равно 1");
-        System.out.println("Значение переменной b с типом byte равно 2");
-        System.out.println("Значение переменной c с типом short равно 3");
-        System.out.println("Значение переменной d с типом long равно 4L");
-        System.out.println("Значение переменной e с типом float равно 1.2f");
-        System.out.println("Значение переменной f с типом double равно 2.1");
+        System.out.println("Значение переменной a с типом int равно " + a);
+        System.out.println("Значение переменной b с типом byte равно " + b);
+        System.out.println("Значение переменной c с типом short равно " + c);
+        System.out.println("Значение переменной d с типом long равно " + d);
+        System.out.println("Значение переменной e с типом float равно " + e);
+        System.out.println("Значение переменной f с типом double равно "+ f);
 
         float g = 27.12f;
         long h = 987678965549L;
