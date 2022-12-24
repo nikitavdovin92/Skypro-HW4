@@ -47,6 +47,17 @@ public class Main {
         System.out.println("За три дня машина произвела " + machinePerformanceInThreeDays + " бутылок");
         System.out.println("Машина произвела за месяц " + machineProducedInMonth + " бутылок");
 
+        short color = 120;
+        byte whiteColor = 2;
+        byte brownColor = 4;
+        int paintForClass = whiteColor + brownColor;
+        int classRoom = color / paintForClass;
+        int allWhitePain = classRoom * whiteColor;
+        int allBrownPain = classRoom * brownColor;
+        System.out.println("в школе, где " + classRoom + " классов, нужно " + allWhitePain + " банок белой краски и " + allBrownPain + " банок коричневой краски");
+
+
+
 
 
 
