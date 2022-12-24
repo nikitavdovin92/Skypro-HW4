@@ -1,3 +1,5 @@
+import java.awt.desktop.SystemEventListener;
+
 public class Main {
     public static void main(String[] args) {
         int a = 1;
@@ -78,15 +80,20 @@ public class Main {
         System.out.println("Если спортсмен будет терять по 250 грамм ежедневно, то потребуется " + daysOfWeightLossWithTheFirstDiet + " дней для похудения");
         System.out.println("Если спорстмен будет терять по 500 грамм ежедневно, то потребуется " + daysOfWeightLossWithTheTwoDiet + " дней для похудения");
         System.out.println("В среднем потребуется " + dayAverage + " день на похудение");
+
+        int masha = 67760;
+        int denis = 83690;
+        int kristina = 76230;
+        double newMasha = (masha * 0.1) + masha;
+        double newDenis = (denis * 0.1) + denis;
+        double newKristina = (kristina * 0.1) + kristina;
+        double incomeDifferenceMasha = newMasha - masha;
+        double incomeDifferenceDenis = newDenis - denis;
+        double incomeDifferenceKristina = newKristina - kristina;
+        System.out.println("Маша теперь получает " + newMasha + " рублей. Годовой доход вырос на " + incomeDifferenceMasha + " рублей.");
+        System.out.println("Денис теперь получает " + newDenis + " рублей. Годовой доход вырос на " + incomeDifferenceDenis + " рублей.");
+        System.out.println("Кристина теперь получает " + newKristina + " рублей. Годовой доход вырос на " + incomeDifferenceKristina + " рублей.");
     }
-
-
-
-
-
-
-
-
 
 
 
