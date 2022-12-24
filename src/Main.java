@@ -56,6 +56,32 @@ public class Main {
         int allBrownPain = classRoom * brownColor;
         System.out.println("в школе, где " + classRoom + " классов, нужно " + allWhitePain + " банок белой краски и " + allBrownPain + " банок коричневой краски");
 
+        int banana = 80;
+        int bananaWeight = banana * 5;
+        int milk = 105;
+        int milkWeight = milk * 2;
+        int iceCream = 100;
+        int iceCreamWeight = iceCream * 2;
+        int eggs = 70;
+        int eggsWeight = eggs * 4;
+        double productWeights = bananaWeight + milkWeight + iceCreamWeight + eggsWeight;
+        double productWeightsKG = productWeights / 1000;
+        System.out.println("Вес завтрака составляет " + productWeights + " грамм или " + productWeightsKG + " кг");
+
+        int loseWeight = 7000;
+        int firstRation = 250;
+        int twoRation = 500;
+        int daysOfWeightLossWithTheFirstDiet = loseWeight / firstRation;
+        int daysOfWeightLossWithTheTwoDiet = loseWeight / twoRation;
+        int averageRation = (firstRation + twoRation) / 2;
+        int dayAverage = (daysOfWeightLossWithTheFirstDiet + daysOfWeightLossWithTheTwoDiet) / 2;
+        System.out.println("Если спортсмен будет терять по 250 грамм ежедневно, то потребуется " + daysOfWeightLossWithTheFirstDiet + " дней для похудения");
+        System.out.println("Если спорстмен будет терять по 500 грамм ежедневно, то потребуется " + daysOfWeightLossWithTheTwoDiet + " дней для похудения");
+        System.out.println("В среднем потребуется " + dayAverage + " день на похудение");
+    }
+
+
+
 
 
 
@@ -71,4 +97,3 @@ public class Main {
 
 
 
-}
