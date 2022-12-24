@@ -90,9 +90,9 @@ public class Main {
         double incomeDifferenceMasha = newMasha - masha;
         double incomeDifferenceDenis = newDenis - denis;
         double incomeDifferenceKristina = newKristina - kristina;
-        System.out.println("Маша теперь получает " + newMasha + " рублей. Годовой доход вырос на " + incomeDifferenceMasha + " рублей.");
-        System.out.println("Денис теперь получает " + newDenis + " рублей. Годовой доход вырос на " + incomeDifferenceDenis + " рублей.");
-        System.out.println("Кристина теперь получает " + newKristina + " рублей. Годовой доход вырос на " + incomeDifferenceKristina + " рублей.");
+        System.out.println("Маша теперь получает " + newMasha + " рублей.Годовой доход вырос на " + incomeDifferenceMasha + " рублей.");
+        System.out.println("Денис теперь получает " + newDenis + " рублей.Годовой доход вырос на " + incomeDifferenceDenis + " рублей.");
+        System.out.println("Кристина теперь получает " + newKristina + " рублей.Годовой доход вырос на " + incomeDifferenceKristina + " рублей.");
     }
 
 
